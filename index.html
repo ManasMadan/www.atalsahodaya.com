@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATAL SAHODAYA</title>
+  
+  <!-- Linking Taliwing CSS via CDN To Use Tailblocks -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+  <!-- Linking CSS Files -->
+  <link rel="stylesheet" href="CSS/basic.css">
+  <link rel="stylesheet" href="CSS/navbar.css">
+  <link rel="stylesheet" href="CSS/index.css">
+  <link rel="stylesheet" href="CSS/slide.css">
+  <link rel="stylesheet" href="CSS/statement.css">
+</head>
+
+<body>
+  <!-- NavBar + Scroll Indicator -->
+  <nav class="header">
+    <!-- Company Name -->
+    <h2 id="logo">Atal sahodaya</h2>
+
+    <!-- Input for the hamburger icon -->
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </label>
+
+    <!-- Navbar Items -->
+    <ul id="menu">
+      <a href="#Statements">Statements</a>
+      <a href="#ExecutiveMembers">Executive Members</a>
+      <a href="#ListOfMembers">List Of Members</a>
+      <a href="#Reports">Case Studies</a>
+
+      <!-- Input for the cross icon -->
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+
+  </nav>
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+
+  <!-- Landing Page Start -->
+  <section class="text-gray-600 body-font" id="Home">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero" src="Images/logo.jpeg">
+      </div>
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ATAL
+          <br class="hidden lg:inline-block">SAHODAYA
+        </h1>
+        <p class="mb-8 leading-relaxed" style="font-size: 1.5em;">“Education is the most powerful weapon which you can
+          use to change the world” – Nelson Mandela</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SlideShow -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img class = "image_slide" src="Images/SlideShow/3.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img class = "image_slide" src="Images/SlideShow/4.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img class = "image_slide" src="Images/SlideShow/5.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img class = "image_slide" src="Images/SlideShow/6.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
+      <img class = "image_slide" src="Images/SlideShow/7.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
+      <img class = "image_slide" src="Images/SlideShow/8.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 7</div>
+      <img class = "image_slide" src="Images/SlideShow/9.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+
+  </div>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <!-- Statements -->
+  <section id="Statements">
+    <div class="content">
+      <!-- Tab links -->
+      <div class="tabs">
+        <button class="tablinks active" data-country="Mission">
+          <p data-title="Mission">Mission</p>
+        </button>
+        <button class="tablinks" data-country="Vision">
+          <p data-title="Vision">Vision</p>
+        </button>
+        <button class="tablinks" data-country="Objective">
+          <p data-title="Objective">Objective</p>
+        </button>
+      </div>
+
+      <!-- Tab content -->
+      <div class="wrapper_tabcontent">
+        <div id="Mission" class="tabcontent active">
+          <h3>Mission</h3>
+          <p>
+          <ol id="list">
+            <li>Achieve QUALITY and EXCELLENCE in Education.</li>
+            <li>To network school communities for pooling, sharing and sustaining of resources.</li>
+            <li>To create an ambience of mutual respect and cooperation.</li>
+            <li>Provide opportunities for student collaboration, research and collective insights.</li>
+            <li>Encourage students to imbibe our country's values, ethics and appreciate its rich cultural heritage.
+            </li>
+            <li>Nurture students to become environmentally conscious and responsible global citizens. </li>
+            <li>Enhance professional competency and organize empowerment programs for teachers.</li>
+          </ol>
+          </p>
+        </div>
+
+        <div id="Vision" class="tabcontent">
+          <h3>Vision</h3>
+          <p>
+            Empower schools to face emerging changes and challenges in Education, initiate BEST practices and teaching
+            pedagogies, develop a platform to foster interaction among schools, respect diversity, promote tolerance,
+            harmony, equity and inclusivity. Endeavour to synergise thought process and consequent actions of gen next.
+          </p>
+        </div>
+
+        <div id="Objective" class="tabcontent">
+          <h3>Objective</h3>
+          <p>
+            Apropos to the aims of Sahodaya School Complex :
+            The main objective of Sahodaya’s is to share innovative strategies and
+            collaborate to achieve quality benchmark in school education by
+            integrating rich experiences and best expertise to shape and sharpen
+            the future of young minds of our country. It helps to keep abreast the
+            teaching community with the latest advancement of educational and
+            administrative developments by organizing Capacity Building
+            Enrichment Programmes / Workshops / Seminars / Conferences and
+            in-service training programmes. It also lays emphasis on promoting
+            academic collaboration through teacher exchanges, common science
+            fairs, joint seminars, workshops, trainings, exchanging ideas, creating
+            and exchanging subject wise question banks etc. which encourage
+            professionalism among teachers and educational innovativeness among
+            institutions. This promotes inter-school collaboration through
+            inter-school competition and activities and by inviting experts from the
+            varied fields of education for discussions and conferences to bring out
+            the desired changes. It also aids in bringing all committed educators on
+            a common platform with the dual purpose of facilitating peer
+            interaction as well as serving as an effective channel of communication
+            between the schools & CBSE and furthermore helps to recognize the
+            achievement of students, staff, teachers and Principals.
+            Our premise is to prepare the children for academic excellence and
+            greater social commitment, promoting scholastic, as well as,
+            co-scholastic excellence by establishing a co-relation between academic
+            and other scholastic and co-scholastic activities. The focus is to build on
+            students strengths and give them opportunities for improvement and
+            honing appropriate skills that build competencies for future readiness.
+            Sahodayas aim at authentic and meaningful learning through
+            integration of Arts / AI / Technology / Inclusive Education - A STEP
+            TOWARDS BUILDING BRIDGES.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Executive Member With Photo -->
+  <section id="ExecutiveMembers" style="padding-top: 100px;">
+    <div class="box">
+      <div class="card">
+        <div class="imgBx">
+          <img src="./Images/Members/01.jpeg" alt="images">
+        </div>
+        <div class="details">
+          <h2>Mrs. Pallavi Sharma<br><span>President</span></h2>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgBx">
+          <img src="./Images/Members/02.jpeg" alt="images">
+        </div>
+        <div class="details">
+          <h2>Mr. Sanjay Bhartiya<br><span>Vice President</span></h2>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgBx">
+          <img src="./Images/Members/03.jpeg" alt="images">
+        </div>
+        <div class="details">
+          <h2>Mrs. Rooma Pathak<br><span>Secretary</span></h2>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgBx">
+          <img src="./Images/Members/04.jpeg" alt="images">
+        </div>
+        <div class="details">
+          <h2>Mrs. Seema Bahl<br><span>Joint Secretary</span></h2>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgBx">
+          <img src="./Images/Members/05.jpeg" alt="images">
+        </div>
+        <div class="details">
+          <h2>Mr. Rajiv Duggal<br><span>Treasurer</span></h2>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgBx">
+          <img src="./Images/Members/06.jpeg" alt="images">
+        </div>
+        <div class="details">
+          <h2>Mrs. Shalini Arora<br><span>Executive Member</span></h2>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="./Images/Members/07.jpeg" alt="images">
+        </div>
+        <div class="details">
+          <h2>Mrs. Heemal Handu Bhatt<br><span>Executive Member</span></h2>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="./Images/Members/08.jpeg" alt="images">
+        </div>
+        <div class="details">
+          <h2>Mrs. Vandana Tandon<br><span>Executive Member</span></h2>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+  
+  <!-- Collage -->
+  <section id="ListOfMembers">
+    <h2 style="font-size: 2rem; font-weight: 800; text-align: center;color: #34495e; margin-top: 0px;margin-bottom: 0px;padding-bottom: 0px; position: relative; top: 75px;">
+      <a href="https://drive.google.com/file/d/1YcXCH9rym2XLdkBgiyH2i-UpH3hjGC3Q/view?usp=sharing" target = "blank" style="text-decoration: underline;">List Of Members (Download)</a>
+    </h2>
+    <img src="./Images/Members/collage2.jpg" alt="Sahodaya Members" width = 100% height = 100% style="margin-bottom: 100px; margin-top: 0px;">
+  </section>
+
+
+
+  <h2 style="font-size: 2rem; font-weight: bolder; text-align: center;color: #34495e;">Case Studies</h2>
+
+  <section id="Reports">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSdt37hdWGlQckqO6vwk9M3Z-T6avhusHjJJIovhxFK8DeUc5g/viewform?embedded=true"
+      frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </section>
+
+
+
+  <!-- Back to top button -->
+  <a class="gotopbtn" href="#Home"> <i class="fas fa-arrow-up"></i> </a>
+
+
+  <footer>
+    <div id="mail"><i class="fa fa-envelope" aria-hidden="true"></i>
+      info@atalsahodaya.com</div>
+  </footer>
+
+
+
+</body>
+
+<!-- Linking The JavaScript Files -->
+<script src="JavaScript/navbar.js"></script>
+<script src="JavaScript/statement.js"></script>
+<script src="JavaScript/slideshow.js"></script>
+
+</html>
